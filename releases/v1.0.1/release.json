@@ -8,12 +8,6 @@
   ],
   "artifacts": [
     {
-      "name": "ATL-Terminal-Portable.zip",
-      "path": "windows/ATL-Terminal-Portable.zip",
-      "sha256": "289EE069C0DA8BB261EF2EE2DBFA0A9F7346BAD34B3DE555E81CFACFE61EEF5A",
-      "bytes": 170832948
-    },
-    {
       "name": "ATL-Terminal-Setup.exe",
       "path": "windows/ATL-Terminal-Setup.exe",
       "sha256": "CF9363F98FEFF352AE2B2B7A75E9BF1CC27060B43814DFA94E96EC16A7B0287C",

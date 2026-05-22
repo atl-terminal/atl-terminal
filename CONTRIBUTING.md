@@ -4,7 +4,7 @@ Thank you for testing ATL Terminal.
 
 Useful feedback includes:
 
-- Windows version and install type: portable ZIP or setup installer
+- Windows version and install type
 - SSH/Telnet target type: Linux, Cisco IOS, jump host, lab device, etc.
 - What worked
 - What failed

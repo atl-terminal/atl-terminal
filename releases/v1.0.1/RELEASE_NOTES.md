@@ -4,21 +4,19 @@ Released: 2026-05-22
 
 ## Downloads
 
-- `ATL-Terminal-Portable.zip`
 - `ATL-Terminal-Setup.exe`
 - `SHA256SUMS.txt`
 
 ## SHA256
 
 ```text
-289EE069C0DA8BB261EF2EE2DBFA0A9F7346BAD34B3DE555E81CFACFE61EEF5A  ATL-Terminal-Portable.zip
 CF9363F98FEFF352AE2B2B7A75E9BF1CC27060B43814DFA94E96EC16A7B0287C  ATL-Terminal-Setup.exe
 ```
 
 ## Highlights
 
 - Protected Windows build for public preview.
-- Windows 10 and Windows 11 portable ZIP and installer builds.
+- Windows 10 and Windows 11 installer build.
 - Bundled Perl runtime, so users do not need to install Perl separately.
 - SSH, Telnet, SFTP file transfer, LLM chat/control, ATL Brain memory, and Plugin Center.
 - Default LLM model is `gpt-5.4-mini`, with no API key bundled.
