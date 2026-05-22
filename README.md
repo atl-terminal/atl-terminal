@@ -21,7 +21,6 @@ Download from the GitHub Releases page:
 
 - `ATL-Terminal-Setup.exe`
 - `SHA256SUMS.txt`
-- `RELEASE_NOTES.md`
 
 ## Highlights
 
