@@ -1,12 +1,17 @@
 # ATL Terminal
 
-ATL Terminal is a Windows SSH/Telnet terminal for network engineers, system
-administrators, DevOps, and security teams who live inside remote shells,
-routers, jump boxes, logs, configs, and troubleshooting sessions.
+ATL Terminal is an AI-assisted SSH/Telnet terminal and PuTTY alternative for
+Windows, built for network engineers, system administrators, DevOps, and
+security teams who live inside remote shells, routers, jump boxes, logs,
+configs, and troubleshooting sessions.
 
 It combines a practical terminal workspace with optional LLM assistance,
 session awareness, file transfer, memory, and plugin-based helpers for devices,
 tools, TUI programs, and code inspection.
+
+Use it when you want a Windows terminal for SSH, Telnet, Cisco/Linux operations,
+SFTP transfer, local or OpenAI-compatible LLM chat, and safer command planning in
+real troubleshooting sessions.
 
 ## Public Preview
 
@@ -22,7 +27,8 @@ Download from the GitHub Releases page:
 
 - Multi-session SSH and Telnet terminal
 - LLM chat and control modes for troubleshooting
-- OpenAI-compatible local model support
+- OpenAI-compatible local model support for LM Studio, Ollama-style gateways,
+  and compatible `/v1/chat/completions` endpoints
 - SFTP file transfer
 - Session awareness and memory
 - Plugin Center for device, tool, TUI, and code helpers
@@ -55,6 +61,13 @@ Known preview status:
 - Nano automation is marked unstable.
 - Vim automation is beta and should use deterministic helper actions.
 - New unsigned installers may trigger SmartScreen or antivirus warnings.
+
+## Search Keywords
+
+SSH client, Telnet client, PuTTY alternative, AI terminal, LLM terminal
+assistant, OpenAI-compatible terminal, local LLM terminal, SFTP client, Cisco
+terminal, Linux admin, network troubleshooting, DevOps terminal, security
+operations.
 
 ## Public Repositories
 
