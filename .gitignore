@@ -1,0 +1,14 @@
+# Keep this repository source-free and release-metadata-only.
+*.zip
+*.exe
+*.msi
+*.7z
+*.rar
+
+windows/
+build/
+dist/
+tmp/
+
+.DS_Store
+Thumbs.db
