@@ -15,26 +15,29 @@ real troubleshooting sessions.
 
 ## Public Preview
 
-**New performance test release: [v1.0.7-test.1](https://github.com/atl-terminal/atl-terminal/releases/tag/v1.0.7-test.1)**
+**Latest version: [v1.0.7](https://github.com/atl-terminal/atl-terminal/releases/tag/v1.0.7)**
 
-[Download the Windows test installer](https://github.com/atl-terminal/atl-terminal/releases/download/v1.0.7-test.1/ATL-Terminal-1.0.7-test.1.exe)
+[Download ATL Terminal for Windows](https://github.com/atl-terminal/atl-terminal/releases/download/v1.0.7/ATL-Terminal-Setup.exe)
 
-This prerelease installs as **ATL Terminal Test**, alongside your existing ATL
-Terminal installation. It does not replace that installation or copy its saved
-connections, passwords, API keys, or chat history. Launch **ATL Terminal Test**
-from the Start Menu to try the new native terminal performance improvements.
+This public preview installs as **ATL Terminal** and updates an existing ATL
+Terminal installation. Close the app before upgrading. Existing connection and
+model settings are retained; a new installation starts with clean sample settings.
+An earlier separate preview installation is not automatically migrated.
 
-The build reduces repeated screen processing, creates scrollback text on demand,
-and includes a native resize crash fix. Copying, chat context, and viewer-only
-TV retain access to terminal text. See the [release notes and test checklist](releases/v1.0.7-test.1/RELEASE_NOTES.md).
+Version 1.0.7 improves native terminal responsiveness, strengthens handling of
+large and malformed output, and adds detachable, resizable chat. Chat explanations
+stay on white while commands use dark, syntax-colored snippets. Automatic
+follow-ups are tied to their original session, and clearing chat cancels pending work.
+See the [release notes](releases/v1.0.7/RELEASE_NOTES.md).
 
-[Previous public preview: v1.0.2](https://github.com/atl-terminal/atl-terminal/releases/tag/v1.0.2)
-remains available. Both releases are previews, not stable releases.
+Earlier versions remain available on the [Releases page](https://github.com/atl-terminal/atl-terminal/releases).
 
 ## Highlights
 
 - Multi-session SSH and Telnet terminal
 - LLM chat and control modes for troubleshooting
+- Detachable chat window and adjustable chat width
+- Native terminal rendering with on-demand scrollback processing
 - OpenAI-compatible local model support for LM Studio, Ollama-style gateways,
   and compatible `/v1/chat/completions` endpoints
 - SFTP file transfer
@@ -49,14 +52,10 @@ remains available. Both releases are previews, not stable releases.
 Always verify downloads before installing.
 
 ```powershell
-Get-FileHash ".\ATL-Terminal-1.0.7-test.1.exe" -Algorithm SHA256
+Get-FileHash ".\ATL-Terminal-Setup.exe" -Algorithm SHA256
 ```
 
-Compare the output with:
-
-```text
-AED83F87D59E597BC5C76EEC93E5CDF7130C32B2D5F85F4A54CA6AE6ABA7AD46  ATL-Terminal-1.0.7-test.1.exe
-```
+Compare the output with [SHA256SUMS.txt for v1.0.7](releases/v1.0.7/SHA256SUMS.txt).
 
 Release assets also include `SHA256SUMS.txt` and `release.json`. Verify against
 the checksum for the exact version you downloaded, not a different release.
@@ -72,12 +71,13 @@ Known preview status:
 - Nano automation is marked unstable.
 - Vim automation is beta and should use deterministic helper actions.
 - New unsigned installers may trigger SmartScreen or antivirus warnings.
-- The new test installer has passed local Windows installation and rendering
-  checks. Fresh Windows 10 and Windows 11 VM testing remains outstanding.
+- Automated runtime, rendering, and session-flow checks have passed on the
+  development Windows machine. Fresh Windows 10 and Windows 11 VM validation
+  remains outstanding.
 
 ## Privacy and Source
 
-The test installer ships with sample connections and no bundled API key,
+The installer ships with sample connections and no bundled API key,
 personal connection profiles, saved passwords, private keys, chat history, or
 memory database. Configure your own connections and model provider after
 installation. The default model remains `gpt-5.4-mini`.

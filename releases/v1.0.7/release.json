@@ -1,0 +1,34 @@
+{
+  "version": "1.0.7",
+  "tag": "v1.0.7",
+  "released": "2026-09-18",
+  "channel": "prerelease",
+  "name": "ATL Terminal",
+  "side_by_side": false,
+  "replaces_existing_installation": true,
+  "preserves_existing_settings": true,
+  "platform": "windows-x64",
+  "signed": false,
+  "release_url": "https://github.com/atl-terminal/atl-terminal/releases/tag/v1.0.7",
+  "assets": [
+    {
+      "name": "ATL-Terminal-Setup.exe",
+      "sha256": "2da86bdb5f3d529567f5800d97bab5f984b0bcdfa4796a83ab9ac8febe4f7333",
+      "bytes": 97172887,
+      "url": "https://github.com/atl-terminal/atl-terminal/releases/download/v1.0.7/ATL-Terminal-Setup.exe"
+    }
+  ],
+  "default_model": "gpt-5.4-mini",
+  "personal_data_included": false,
+  "notes": [
+    "Detachable, resizable chat with consistent borders and preserved drafts.",
+    "White chat prose and syntax-colored command snippets.",
+    "Native terminal input, viewport, history, and output resilience improvements.",
+    "Bounded code inspection using ripgrep and Perl helpers.",
+    "Session-bound automatic follow-ups and cancellation of cleared conversations.",
+    "Explicit model feedback for rejected helper formats.",
+    "Updates the normal ATL Terminal installation; separate preview installations are not automatically migrated.",
+    "Unsigned public preview; clean Windows 10 and Windows 11 VM validation remains outstanding.",
+    "Nano automation remains unstable; Vim automation remains beta."
+  ]
+}

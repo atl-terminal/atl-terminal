@@ -1,0 +1,2 @@
+2da86bdb5f3d529567f5800d97bab5f984b0bcdfa4796a83ab9ac8febe4f7333  ATL-Terminal-Setup.exe
+3c8a29693f7153817707c6acde2bb4ad3346f379718acf8707be0a2d0012f82a  release.json
