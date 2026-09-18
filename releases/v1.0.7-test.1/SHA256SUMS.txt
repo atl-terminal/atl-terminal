@@ -1,0 +1,2 @@
+aed83f87d59e597bc5c76eec93e5cdf7130c32b2d5f85f4a54ca6ae6aba7ad46  ATL-Terminal-1.0.7-test.1.exe
+3624d47ca06f78784f52c94dcd6745f2b30c6050eaea49a65532c196d028e001  release.json

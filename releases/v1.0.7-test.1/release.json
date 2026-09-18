@@ -1,0 +1,30 @@
+{
+  "version": "1.0.7-test.1",
+  "tag": "v1.0.7-test.1",
+  "released": "2026-09-18",
+  "channel": "prerelease",
+  "name": "ATL Terminal Test",
+  "side_by_side": true,
+  "replaces_existing_installation": false,
+  "platform": "windows-x64",
+  "signed": false,
+  "release_url": "https://github.com/atl-terminal/atl-terminal/releases/tag/v1.0.7-test.1",
+  "assets": [
+    {
+      "name": "ATL-Terminal-1.0.7-test.1.exe",
+      "sha256": "aed83f87d59e597bc5c76eec93e5cdf7130c32b2d5f85f4a54ca6ae6aba7ad46",
+      "bytes": 97138382,
+      "url": "https://github.com/atl-terminal/atl-terminal/releases/download/v1.0.7-test.1/ATL-Terminal-1.0.7-test.1.exe"
+    }
+  ],
+  "default_model": "gpt-5.4-mini",
+  "personal_data_included": false,
+  "notes": [
+    "Incremental native viewport snapshots and on-demand terminal history.",
+    "Batched ASCII serialization with Unicode, colors, and attributes preserved.",
+    "Native terminal resize crash fix.",
+    "Separate ATL Terminal Test installation; existing installation and settings are not replaced.",
+    "Unsigned prerelease; clean Windows 10 and Windows 11 VM testing remains outstanding.",
+    "Nano automation remains unstable; Vim automation remains beta."
+  ]
+}
